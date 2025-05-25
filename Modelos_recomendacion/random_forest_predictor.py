@@ -10,7 +10,7 @@ import seaborn as sns
 import joblib
 
 # Cargar los datos desde el Excel actualizado
-df = pd.read_excel("test_modificado_agrupacion_gravedad.xlsx", sheet_name="Sheet1")
+df = pd.read_excel("datos_pacientes_entrenamiento.xlsx", sheet_name="Sheet1")
 
 # Normalizar la variable 'Eficacia'
 df["Eficacia"] = (df["Eficacia"] - df["Eficacia"].min()) / (df["Eficacia"].max() - df["Eficacia"].min())

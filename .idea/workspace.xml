@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec675f9e-2387-4a2b-bf61-0f3d95d856be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/README_multisalidaV2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/ScriptRecomendacion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/script_recomendacion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/columnas_todo_cero.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/entrenar_modelos_rf_multisalida.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/multisalidaV2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/modelo_clas_eficacia.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/modelo_clas_eficacia.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/modelo_rf_aderencia.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/modelo_rf_aderencia.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/modelo_rf_gravedad.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/nuevos_pacientes.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/nuevos_pacientes.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/test_modificado_agrupacion_gravedad.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/datos_pacientes_entrenamiento.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos_recomendacion/comparar_modelos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos_recomendacion/comparar_modelos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos_recomendacion/entrenar_modelo_logistic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos_recomendacion/entrenar_modelo_logistic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos_recomendacion/random_forest_predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos_recomendacion/random_forest_predictor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos_recomendacion/test_modificado_agrupacion_gravedad.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos_recomendacion/datos_pacientes_entrenamiento.xlsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2xZpeQArTt8HkmHreEwdLAJvqed" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/phython/RepoGithubTfm/Migraitech"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec675f9e-2387-4a2b-bf61-0f3d95d856be" name="Changes" comment="" />
+      <created>1748155544549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748155544549</updated>
+    </task>
+    <servers />
+  </component>
+</project>

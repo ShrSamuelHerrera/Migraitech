@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, recall_score, f1_score, classificati
 
 # Cargar los datos originales y preprocesar
 print("\n📦 Cargando y preparando datos...")
-df = pd.read_excel("test_modificado_agrupacion_gravedad.xlsx", sheet_name="Sheet1")
+df = pd.read_excel("datos_pacientes_entrenamiento.xlsx", sheet_name="Sheet1")
 
 df["Eficacia"] = (df["Eficacia"] - df["Eficacia"].min()) / (df["Eficacia"].max() - df["Eficacia"].min())
 df["genero"] = df["genero"].map({"Femenino": 0, "Masculino": 1})
