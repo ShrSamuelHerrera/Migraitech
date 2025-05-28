@@ -33,7 +33,7 @@ if df["genero"].dtype == object:
     df["genero"] = df["genero"].map({"Femenino": 0, "Masculino": 1})
 
 # Separar variables
-features = df.drop(columns=["Eficacia", "Adherencia", "Eficacia_clasificada"])  # mantener Gravedad Total
+features = df.drop(columns=["Eficacia", "Adherencia", "Eficacia_clasificada"])
 y_eficacia_clas = df["Eficacia_clasificada"]
 y_aderencia = df["Adherencia"]
 
@@ -84,15 +84,23 @@ plt.ylabel("Real")
 plt.title("Matriz de Confusión - Eficacia")
 plt.show()
 
-# Evaluar modelo de adherencia
-def evaluar_modelo(nombre, modelo, X_test, y_test):
+# Evaluar modelo de adherencia con umbral
+
+def evaluar_modelo(nombre, modelo, X_test, y_test, umbral=0.8):
     y_pred = modelo.predict(X_test)
     print(f"\n📊 Evaluación para {nombre}:")
     print("  R²:", round(r2_score(y_test, y_pred), 4))
     print("  MAE:", round(mean_absolute_error(y_test, y_pred), 4))
     print("  RMSE:", round(np.sqrt(mean_squared_error(y_test, y_pred)), 4))
 
+    # Clasificación binaria con umbral
+    y_test_bin = (y_test >= umbral).astype(int)
+    y_pred_bin = (y_pred >= umbral).astype(int)
+    print("\n🔍 Clasificación basada en umbral:")
+    print(classification_report(y_test_bin, y_pred_bin))
+
+    ConfusionMatrixDisplay.from_predictions(y_test_bin, y_pred_bin, cmap="Blues")
+    plt.title(f"Matriz de Confusión - Adherencia (umbral {umbral})")
+    plt.show()
+
 evaluar_modelo("Adherencia", model_ade, X_test_ade, y_test_ade)
-ConfusionMatrixDisplay.from_predictions(y_test_ade.round(), model_ade.predict(X_test_ade).round(), cmap="Blues")
-plt.title("Matriz de Confusión - Adherencia")
-plt.show()
