@@ -84,7 +84,7 @@ plt.ylabel("Real")
 plt.title("Matriz de Confusión - Eficacia")
 plt.show()
 
-# Evaluar modelo de adherencia con umbral
+# Evaluar modelo de adherencia como regresión y mostrar matriz de confusión binaria
 
 def evaluar_modelo(nombre, modelo, X_test, y_test, umbral=0.8):
     y_pred = modelo.predict(X_test)
@@ -93,14 +93,13 @@ def evaluar_modelo(nombre, modelo, X_test, y_test, umbral=0.8):
     print("  MAE:", round(mean_absolute_error(y_test, y_pred), 4))
     print("  RMSE:", round(np.sqrt(mean_squared_error(y_test, y_pred)), 4))
 
-    # Clasificación binaria con umbral
+    # Mostrar matriz de confusión binaria sin imprimir el reporte
     y_test_bin = (y_test >= umbral).astype(int)
     y_pred_bin = (y_pred >= umbral).astype(int)
-    print("\n🔍 Clasificación basada en umbral:")
-    print(classification_report(y_test_bin, y_pred_bin))
-
     ConfusionMatrixDisplay.from_predictions(y_test_bin, y_pred_bin, cmap="Blues")
     plt.title(f"Matriz de Confusión - Adherencia (umbral {umbral})")
     plt.show()
+
+# Ejecutar evaluación
 
 evaluar_modelo("Adherencia", model_ade, X_test_ade, y_test_ade)
