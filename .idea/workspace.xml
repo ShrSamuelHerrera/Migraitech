@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec675f9e-2387-4a2b-bf61-0f3d95d856be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/README_multisalidaV2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/ScriptRecomendacion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/script_recomendacion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/columnas_todo_cero.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/entrenar_modelos_rf_multisalida.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/multisalidaV2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/modelo_clas_eficacia.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/modelo_clas_eficacia.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/modelo_rf_aderencia.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/modelo_rf_aderencia.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/modelo_rf_gravedad.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/nuevos_pacientes.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/nuevos_pacientes.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/test_modificado_agrupacion_gravedad.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos Recomendacion segun EAGT/datos_pacientes_entrenamiento.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos_recomendacion/comparar_modelos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos_recomendacion/comparar_modelos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos_recomendacion/entrenar_modelo_logistic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos_recomendacion/entrenar_modelo_logistic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos_recomendacion/random_forest_predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos_recomendacion/random_forest_predictor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelos_recomendacion/test_modificado_agrupacion_gravedad.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos_recomendacion/datos_pacientes_entrenamiento.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +27,20 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2xZpeQArTt8HkmHreEwdLAJvqed" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/phython/RepoGithubTfm/Migraitech"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/phython/RepoGithubTfm/Migraitech&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,5 +51,8 @@
       <updated>1748155544549</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
